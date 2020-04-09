@@ -361,7 +361,7 @@
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="text">
-     <string>删掉一些</string>
+     <string>删除</string>
     </property>
    </widget>
    <widget class="QPushButton" name="review">
