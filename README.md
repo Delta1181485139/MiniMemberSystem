@@ -58,23 +58,23 @@ extern const QString password = "vn";
 
 ## 登录界面
 
-![image-20200409163452630](D:\Qt\memberManagementSystem\login_show.png)
+![image-20200409163452630](login_show.png)
 
 > 在此输入用户名和密码，如果是管理员则要勾选**我是管理员**选项，否则会显示用户名或密码错误。如果没有账号，可以点击注册按钮。
 
-![image-20200409163810955](D:\Qt\memberManagementSystem\register_show.png)
+![image-20200409163810955](register_show.png)
 
 > 在此输入希望注册的用户名和密码，如果用户名重复，将会显示用户名已存在。注册后的用户均为普通用户，新增管理员用户还得直接用数据库。
 
 ## 管理员界面
 
-![image-20200409164054401](D:\Qt\memberManagementSystem\admin_login_show.png)
+![image-20200409164054401](admin_login_show.png)
 
 > 输入管理员账号与密码，勾选**我是管理员**，可进入管理员界面。
 
 ### 管理所有人
 
-![image-20200409164245262](D:\Qt\memberManagementSystem\admin_index_show.png)
+![image-20200409164245262](admin_index_show.png)
 
 > - 进入主页默认是管理所有人的窗口。
 > - **查找操作**在这里首先可以通过用户名查找某个用户，并显示其信息在主窗口。
@@ -82,52 +82,52 @@ extern const QString password = "vn";
 
 ### 审核用户的动态
 
-![image-20200409165058766](D:\Qt\memberManagementSystem\admin_review_show.png)
+![image-20200409165058766](admin_review_show.png)
 
 > - 点击待审核，在主窗口将会出现所有用户新发表的动态，需要经过管理员的审核才能够向所有人展示。
 > - **通过审核**，选中整行需要通过的动态（也能够通过CTRL+鼠标左键多选），点击通过，此时选中的所有行的序号和列名将会加粗显示。如果点击撤销修改，则通过失败，如果点击保存修改，则通过成功，所有选中的动态都将消失，并显示在已通过那一栏中。
 
-![image-20200409165627122](D:\Qt\memberManagementSystem\admin_reviewed_show.png)
+![image-20200409165627122](admin_reviewed_show.png)
 
 > 在选择已通过按钮之后，会在主窗口展示所有人都可见的动态，并能够删除，删除的具体操作和之前的通过操作和删号操作是一样的。
 
 ## 普通用户界面
 
-![image-20200409170032230](D:\Qt\memberManagementSystem\user_index_show.png)
+![image-20200409170032230](user_index_show.png)
 
 > 在登陆界面取消勾选**我是管理员**按钮，输入正确的用户名和密码，将会进入普通用户界面。在页眉将会有欢迎提示，和上一次的登出时间（第一次登录则不显示）。主窗口默认展示的是本用户以往所发表的所有动态。
 
 ### 修改密码
 
-![image-20200409170339349](D:\Qt\memberManagementSystem\user_changePwd_show.png)
+![image-20200409170339349](user_changePwd_show.png)
 
 > 点击修改密码将会弹出窗口，用户需要在正确填入原密码，并保证两次输入的新密码相同之后，可成功修改密码。
 
 ### 个性签名
 
-![image-20200409170834273](D:\Qt\memberManagementSystem\user_signature_show.png)
+![image-20200409170834273](user_signature_show.png)
 
 点击个性签名旁的编辑按钮，可以进行编辑个性签名，字数限定32个字。
 
 ### 发布动态
 
-![image-20200409171115767](D:\Qt\memberManagementSystem\user_editMoment_show.png)
+![image-20200409171115767](user_editMoment_show.png)
 
 > 在主界面的上方文字编辑框内可以输入动态，限定字数200字以内，点击发布之后，动态将会新增到我的动态列表中。但一分钟内只能发布一条动态，否则会被系统警告。
 
-![image-20200409171213449](D:\Qt\memberManagementSystem\user_review_show.png)
+![image-20200409171213449](user_review_show.png)
 
 > 正文下方将会显示待审核，在管理员审核之前，其他的用户是看不到该动态的。
 
 ### 查看其他人动态
 
-![image-20200409171407727](D:\Qt\memberManagementSystem\user_explore_show.png)
+![image-20200409171407727](user_explore_show.png)
 
 > 点击**发现**按钮，主窗口将会显示系统中所有用户所发布，并通过管理员审核的动态。
 
 ### 删除动态
 
-![image-20200409171655876](D:\Qt\memberManagementSystem\user_delete_show.png)
+![image-20200409171655876](user_delete_show.png)
 
 > 用户只能够删除自身发布的动态，并按照发布时间来删除，操作比管理员稍微复杂。删除操作成功之后，记录将会从**我的发布**和**发现**中消失。
 
