@@ -7,10 +7,6 @@ the first time to develop a mini GUI program by Qt
 - 数据库：Microsoft SQL Server 2017
 - 编译器：MinGW 5.3.0 32bit for C++
 
-# 项目组成员
-
-单人（之前忘记组队了）
-
 # 安装&配置
 
 ## 数据库部分（以SQLsever为例）
